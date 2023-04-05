@@ -10,7 +10,7 @@ function toggleMenu() {
         toggle.innerHTML = `<i class="fa fa-times"></i>`;
     }
 }
-toggle.addEventListener("click", toggleMenu, false);
+toggle.addEventListener("click", toggleMenu);
 let form= document.contact_form;
 let frame= document.contact_form.fullname;
 console.log(form);
