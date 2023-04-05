@@ -347,6 +347,14 @@ h4 {
     color: white;
     cursor: pointer;
 }
+
+.contact .map{
+    display: flex;
+}
+
+.contact .map iframe{
+    width: 100%;
+}
 @media only screen and (max-width: 768px) {
     body{
         width: 100%;
